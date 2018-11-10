@@ -33,9 +33,10 @@
     <TextView
         android:id="@+id/PeripheralTextView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="80dp"
-        android:layout_marginTop="100dp"
+        android:layout_height="185dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="118dp"
         android:maxLines="30"
         android:scrollbars="vertical" />
 
@@ -71,9 +72,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="48dp"
-        android:layout_marginTop="28dp"
-        android:text="connectDevice" />
+        android:layout_marginEnd="74dp"
+        android:layout_marginTop="116dp"
+        android:text="send data" />
+
+    <Button
+        android:id="@+id/dataIn"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/connectDevice"
+        android:layout_alignTop="@+id/StartScanButton"
+        android:text="get data" />
 
 
 </RelativeLayout>
